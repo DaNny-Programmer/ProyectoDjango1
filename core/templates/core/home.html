@@ -1,8 +1,13 @@
 {% extends 'core/base.html' %}
 {% block title %} Portada {% endblock %}
 
-{% block content %}
-<h2>Portada</h2>
 
-<p>Esto es la Portada</p>
+
+{% block background %}{% load static %}{% static 'core/img/home-bg.jpg' %}{% endblock %}
+
+
+{% block headers %} 
+<h1>Daniela Hernández</h1>
+<span class="subheading">Ingeniero Tecnologias de la Información </span>
 {% endblock %}
+
